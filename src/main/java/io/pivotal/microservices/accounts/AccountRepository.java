@@ -8,15 +8,17 @@ import org.springframework.data.repository.Repository;
 /**
  * Repository for Account data implemented using Spring Data JPA.
  * 
- * @author Paul Chapman
+ * @author Eugenia
  */
-public interface AccountRepository extends Repository<Account, Long> {
+public interface AccountRepository extends Repository<Account , Long> {
+
 	/**
 	 * Find an account with the specified account number.
 	 *
 	 * @param accountNumber
 	 * @return The account if found, null otherwise.
 	 */
+
 	public Account findByNumber(String accountNumber);
 
 	/**

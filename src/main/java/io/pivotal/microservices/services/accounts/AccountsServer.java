@@ -21,7 +21,7 @@ import io.pivotal.microservices.services.registration.RegistrationServer;
  * This class declares no beans and current package contains no components for
  * ComponentScan to find.
  * 
- * @author Paul Chapman
+ * @author Eugenia
  */
 @SpringBootApplication
 @EnableDiscoveryClient
